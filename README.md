@@ -1,7 +1,4 @@
-# stability-badges
-SVG badges for projects based on the [Node stability index](http://nodejs.org/api/documentation.html#documentation_stability_index).
-
-
+# Build status badges
 ## Badges
 Badges with node stability index descriptions slightly changed to remove the 'feature' references.
 
@@ -12,13 +9,6 @@ Badges with node stability index descriptions slightly changed to remove the 'fe
 This is a 'work in progress' and is not ready for use of any kind at this time.
 
     ![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
-
-### Deprecated
-![stability-deprecated](https://img.shields.io/badge/stability-deprecated-red.svg)
-
-Changes are planned. Do not rely on it. Use of the feature may cause warnings. Backwards compatibility should not be expected.
-
-    ![stability-deprecated](https://img.shields.io/badge/stability-deprecated-red.svg)
 
 ### Experimental
 ![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)
@@ -56,6 +46,14 @@ Unless serious bugs are found, this code will not ever change.
     ![stability-frozen](https://img.shields.io/badge/stability-locked-blue.svg)
 
 
-## Credits
-Basically just an updated version of <https://github.com/badges/stability-badges> using the badges from <http://shields.io>
+# Activity badges
+### Last commit badge
+![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat-square)
 
+Gives an indication of the last time the current project has been worked on.
+
+    [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat-square)](LINK-TO-REPO)
+
+# Credits
+Forked from orangemug <https://github.com/orangemug>.
+Original credits: Basically just an updated version of <https://github.com/badges/stability-badges> using the badges from <http://shields.io>
